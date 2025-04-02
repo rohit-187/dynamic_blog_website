@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create New Post</h1>
+    <form onsubmit="savePost(event)">
+        <input type="text" id="title" placeholder="Title" required><br>
+        <textarea id="content" placeholder="Content" required></textarea><br>
+        <button type="submit">Save Post</button>
+<h2>Upload an Image</h2>
+    <input type="file" id="fileInput" accept="image/*">
+    <div id="preview"></div>
+
+    </form>
+    <button onclick="location.href='index.html'">Back to Home</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
