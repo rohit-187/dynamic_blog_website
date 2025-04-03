@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View/Edit Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="viewTitle"></h1>
+    <p id="viewContent"></p>
+    <h1>Edit Post</h1>
+    <form onsubmit="updatePost(event)">
+        <input type="hidden" id="postId">
+        <input type="text" id="editTitle" required><br>
+        <textarea id="editContent" required></textarea><br>
+        <button type="submit">Update Post</button>
+    <h2>Upload an Image</h2>
+</form>
+    <input type="file" id="fileInput" accept="image/*">
+    <div id="preview"></div>
+
+    <button onclick="location.href='index.html'">Back to Home</button>
+
+    
+</body>
+</html>
+
+
+
