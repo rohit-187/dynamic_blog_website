@@ -2,4 +2,4 @@ project-plan
 
 Create html files
 Create basic css
-Create 
+Create javascript to handle local storage
