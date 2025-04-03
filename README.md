@@ -1,3 +1,3 @@
 # dynamic_blog_website
 
-You’ll create a blog website with a homepage that displays a list of blog posts, a page to create new posts, and the ability to edit or delete existing posts. This project will be managed through Git and GitHub with proper version control workflows.
+Creating a blog website with a homepage that displays a list of blog posts, a page to create new posts, and the ability to edit or delete existing posts. This project will be managed through Git and GitHub with proper version control workflows.
